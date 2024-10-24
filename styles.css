@@ -1,22 +1,25 @@
 body {
     width: 1440px;
     background-color: hsl(30, 54%, 90%);
-    display: flex;
-    justify-content: center;
     color: hsl(30, 10%, 34%);
     font-family: Outfit;
     font-weight: 400;
-    margin: 120px auto 120px auto;
+    border: 0.0625rem solid black; /* 1px a rem */
+    margin: auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
 .grandmother {
     width: 51.15%;
     background-color: hsl(0, 0%, 100%);
-    font-size: 16px;
+    font-size: 1rem; /* 16px a rem */
     font-family: Outfit;
-    padding: 35px 35px 0 35px;
-    line-height: 30px;
+    padding: 2.1875rem 2.1875rem 0 2.1875rem; /* 35px a rem */
+    line-height: 1.875rem; /* 30px a rem */
     border-radius: 1%;
+    margin: 7.5rem auto 0 auto; /* 120px a rem */
 }
 
 img {
@@ -25,10 +28,10 @@ img {
 } 
 
 h1 {
-    font-size: 45px;
+    font-size: 2.8125rem; /* 45px a rem */
     font-family: Young Serif;
     font-weight: 400;
-    color: hsl(24, 5%, 18%)
+    color: hsl(24, 5%, 18%);
 }
 
 h2 {
@@ -38,34 +41,34 @@ h2 {
 }
 
 h3 {
-    margin: 10px;
-    text-indent: -35px;
+    margin: 0.625rem; /* 10px a rem */
+    text-indent: -2.1875rem; /* -35px a rem */
     color: hsl(332, 51%, 32%);
 }
  
 .line1 {
     display: flex;
-    text-indent: 32px;
+    text-indent: 2rem; /* 32px a rem */
     padding: 0;
     justify-content: space-between;
-    line-height: 5px;
+    line-height: 0.3125rem; /* 5px a rem */
 }
 
 p ~ p {
-    text-indent: -401px;
+    text-indent: -25.0625rem; /* -401px a rem */
     font-weight: 700; 
     color: hsl(14, 45%, 36%);
 }
 
 .purple {
     background-color: hsl(330, 100%, 98%);
-    line-height: 25px;
+    line-height: 1.5625rem; /* 25px a rem */
 }
 
 hr {
     border: none; 
-    border-top: 1px solid hsl(30, 18%, 87%); 
-    height: 1px;
+    border-top: 0.0625rem solid hsl(30, 18%, 87%); /* 1px a rem */
+    height: 0.0625rem; /* 1px a rem */
 }
 
 .purple li::marker {
